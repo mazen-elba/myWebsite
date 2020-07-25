@@ -13,6 +13,7 @@
   --previewShadow: #f0ead6;
 
   --buttonColor: black;
+  --buttonColorSubmitted: #4b5156;
 }
 
 html,
@@ -294,6 +295,11 @@ h6 {
   gap: 100px;
 }
 
+.about-me {
+  display: grid;
+  align-content: center;
+}
+
 #skills {
   display: flex;
   justify-content: space-evenly;
@@ -307,7 +313,15 @@ h6 {
 }
 
 #social_img {
+  display: block;
   width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 2px solid var(--borderColor);
+}
+
+.icons {
+  text-align: center;
 }
 
 .post-wrapper {
@@ -386,6 +400,11 @@ h6 {
   color: #fff;
   background-color: var(--buttonColor);
   border: none;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: var(--buttonColorSubmitted);
 }
 
 @media screen and (max-width: 1200px) {

@@ -16,12 +16,10 @@
       rel="stylesheet"
     />
 
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/release/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54OGbiDQ"
+    <script
+      src="https://kit.fontawesome.com/47389c2d41.js"
       crossorigin="anonymous"
-    />
+    ></script>
 
     <link rel="stylesheet" href="css/default.css" />
     <link rel="stylesheet" href="css/blue.css" />
@@ -53,7 +51,7 @@
           </div>
 
           <div class="left-column">
-            <img id="profile_pic" src="images/portrait.jpg" />
+            <img id="profile_pic" src="images/profile_pic.png" />
             <h5 style="text-align: center; line-height: 0;">
               Personalize Theme
             </h5>
@@ -77,7 +75,7 @@
                 <div id="corner-topright" class="corner"></div>
                 <h3>What I do</h3>
                 <p>
-                  I am a self-taught programmer, looking to learn more.
+                  I am a self-taught programmer, obsessed with learning more.
                 </p>
                 <div id="corner-botright" class="corner"></div>
                 <div id="corner-botleft" class="corner"></div>
@@ -144,26 +142,18 @@
           </div>
 
           <div class="social_links">
-            <img id="social_img" src="images/project2.jpeg" />
+            <img id="social_img" src="images/portrait.jpg" />
             <h3>Find me on LinkedIn & Twitter</h3>
 
             <div class="icons">
               <a target="_blank" href="https://www.linkedin.com/in/mazen-elba/">
-                <i class="fab fa-linkedin fa-2x"></i
-              ></a>
+                <i class="fab fa-linkedin fa-2x"> @mazen-elba</i></a
+              >
               <br />
               <a target="_blank" href="https://twitter.com/mazen_elba"
-                ><i class="fab fa-twitter fa-2x"></i
-              ></a>
+                ><i class="fab fa-twitter fa-2x"> @mazen_elba</i></a
+              >
             </div>
-
-            <!-- <a target="_blank" href="https://www.linkedin.com/in/mazen-elba/"
-              >LinkedIn: @MazenElba</a
-            >
-            <br />
-            <a target="_blank" href="https://twitter.com/mazen_elba"
-              >Twitter: @mazen_elba</a
-            > -->
           </div>
         </div>
       </div>
@@ -176,12 +166,12 @@
         <div class="post-wrapper">
           <div>
             <div class="post">
-              <img class="thumbnail" src="images/project3.jpeg" />
+              <img class="thumbnail" src="images/netflix.jpg" />
               <div class="post-preview">
                 <h6 class="post-title">Netflix Clone</h6>
                 <p class="post-intro">
-                  A replication of the famous online web video/film browser
-                  Netflix.
+                  A replication of the famous streaming service that offers a
+                  wide variety of TV shows, movies, anime and documentaries.
                 </p>
                 <a href="post.html">Read More</a>
               </div>
@@ -189,7 +179,7 @@
           </div>
           <div>
             <div class="post">
-              <img class="thumbnail" src="images/project4.jpeg" />
+              <img class="thumbnail" src="images/background2.jpg" />
               <div class="post-preview">
                 <h6 class="post-title">STEAM Project</h6>
                 <p class="post-intro">
@@ -204,11 +194,54 @@
           </div>
           <div>
             <div class="post">
-              <img class="thumbnail" src="images/project5.jpeg" />
+              <img class="thumbnail" src="images/facebook-messenger.jpg" />
               <div class="post-preview">
                 <h6 class="post-title">Facebook Messenger Clone</h6>
                 <p class="post-intro">
-                  An imitation of Facebook's famous text/video Messenger.
+                  An imitation of Facebook's instanct messaging app, used for
+                  sharing photos, videos, audio recordings and for group chats.
+                </p>
+                <a href="post.html">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="images/e-commerce.jpg" />
+              <div class="post-preview">
+                <h6 class="post-title">E-Commerce App</h6>
+                <p class="post-intro">
+                  Increase customer spending, Grow your brand, and sync all your
+                  inventory. Make shopping mobile friendly. Sell & Buy!
+                </p>
+                <a href="post.html">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="images/to-do-list.jpeg" />
+              <div class="post-preview">
+                <h6 class="post-title">To-Do List App</h6>
+                <p class="post-intro">
+                  A powerful task management software used to manage anything
+                  from a shopping list to major projects at work.
+                </p>
+                <a href="post.html">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="images/under-construction.jpeg" />
+              <div class="post-preview">
+                <h6 class="post-title">TBD</h6>
+                <p class="post-intro">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                  ex distinctio optio quidem quas doloribus reiciendis quos.
                 </p>
                 <a href="post.html">Read More</a>
               </div>
@@ -223,23 +256,72 @@
       <div class="main-container">
         <a href=""></a>
         <h3 style="text-align: center;">Get In Touch</h3>
-        <form id="contact-form">
+        <form
+          id="contact-form"
+          method="post"
+          action="MAILTO:mazen.elba@gmail.com"
+          enctype="text/plain"
+        >
           <a name="contact"></a>
 
-          <label>Name</label>
-          <input class="input-field" type="text" name="name" />
+          <label
+            ><i class="fa fa-user fa-0.2x" aria-hidden="true"></i> Name</label
+          >
+          <input
+            class="input-field"
+            type="text"
+            name="name"
+            placeholder="Full Name"
+            required
+          />
 
           <label>Subject</label>
-          <input class="input-field" type="text" name="subject" />
+          <input
+            class="input-field"
+            type="text"
+            name="subject"
+            placeholder="Context of Message"
+            required
+          />
 
-          <label>Email</label>
-          <input class="input-field" type="text" name="email" />
+          <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+          <input
+            class="input-field"
+            type="text"
+            name="email"
+            placeholder="Your E-mail"
+            required
+          />
 
-          <label>Message</label>
-          <textarea class="input-field" type="text" name="message"></textarea>
+          <label
+            ><i class="fa fa-comment" aria-hidden="true"></i> Message</label
+          >
+          <textarea
+            class="input-field"
+            type="text"
+            name="message"
+            maxlength="6000"
+            required
+          ></textarea>
 
-          <input id="submit-btn" type="submit" value="Send" />
+          <button target="_blank" id="submit-btn" type="submit" name="submit">
+            Submit
+          </button>
         </form>
+
+        <div
+          id="error_message"
+          style="width: 100%; height: 100%; display: none;"
+        >
+          <h4>Error</h4>
+          Sorry there was an error sending your form.
+        </div>
+        <div
+          id="success_message"
+          style="width: 100%; height: 100%; display: none;"
+        >
+          <h2>Success! Your Message was Sent Successfully.</h2>
+        </div>
       </div>
     </section>
 
