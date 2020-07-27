@@ -321,7 +321,8 @@ h6 {
 }
 
 .icons {
-  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .post-wrapper {

@@ -262,7 +262,8 @@ h6 {
   border: 2px solid var(--borderColor); }
 
 .icons {
-  text-align: center; }
+  display: flex;
+  justify-content: space-evenly; }
 
 .post-wrapper {
   display: grid;
