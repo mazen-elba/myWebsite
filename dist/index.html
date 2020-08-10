@@ -1,334 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Welcome to My Portfolio</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="images/gearbox-static.png" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icon-font.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Mazen Abdelbasir | Front End Engineer</title>
+</head>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
-      rel="stylesheet"
-    />
+<body>
+    <!-- preload -->
+    <div class="header-img">
+        <img style="display: none;" src="images/fast.gif" alt="">
+    </div>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
-      rel="stylesheet"
-    />
-
-    <script
-      src="https://kit.fontawesome.com/47389c2d41.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <link rel="stylesheet" href="css/default.css" />
-    <link rel="stylesheet" href="css/blue.css" />
-    <link rel="stylesheet" href="css/green.css" />
-    <link rel="stylesheet" href="css/purple.css" />
-
-    <link id="theme-style" rel="stylesheet" type="text/css" href="" />
-  </head>
-
-  <body>
-    <!--- INTRO -->
-    <section class="s1">
-      <div class="main-container">
-        <div class="greeting-wrapper">
-          <h1>Hi, I'm Mazen Abdelbasir</h1>
+    <header class="header">
+        <div class="header__logo-box">
+            <img src="images/logo-white.png" alt="Mazen" class="header__logo">
         </div>
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Mazen Abdelbasir</span>
+                <span class="heading-primary--sub">Front End Engineer</span>
+            </h1>
 
-        <div class="intro-wrapper">
-          <div class="nav-wrapper">
-            <a href="index.html">
-              <div class="dots-wrapper">
-                <div id="dot-1" class="browser-dot"></div>
-                <div id="dot-2" class="browser-dot"></div>
-                <div id="dot-3" class="browser-dot"></div></div
-            ></a>
-            <ul id="navigation">
-              <li><a href="index.html#contact">Contact</a></li>
-            </ul>
-          </div>
-
-          <div class="left-column">
-            <img id="profile_pic" src="images/Profile2.jpg" />
-            <h5 style="text-align: center; line-height: 0;">
-              Personalize Theme
-            </h5>
-
-            <div id="theme-options-wrapper">
-              <div data-mode="light" id="light-mode" class="theme-dot"></div>
-              <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
-              <div data-mode="green" id="green-mode" class="theme-dot"></div>
-              <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
-            </div>
-
-            <p id="settings-note">
-              *Theme options will be saved for<br />your next visit
-            </p>
-          </div>
-
-          <div class="right-column">
-            <div id="preview-shadow">
-              <div id="preview">
-                <div id="corner-topleft" class="corner"></div>
-                <div id="corner-topright" class="corner"></div>
-                <h3>What I do</h3>
-                <p>
-                  I am a self-taught programmer, obsessed with learning more.
-                </p>
-                <div id="corner-botright" class="corner"></div>
-                <div id="corner-botleft" class="corner"></div>
-              </div>
-            </div>
-          </div>
+            <a href="#projects" class="btn btn--white btn--animated smooth-goto">See Projects</a>
         </div>
-      </div>
-    </section>
+    </header>
 
-    <!-- ABOUT ME -->
-    <section class="s2">
-      <div class="main-container">
-        <div class="about-wrapper">
-          <div class="about-me">
-            <h4>More about me</h4>
-            <p>
-              Transitioned from health care to Software Development. AI
-              technology enthusiast. Life-long learner. Cosmically curious. Love
-              nature-walks with my four-legged furry friend Milo. Always looking
-              for new challenges to take on as I grow my passions and feed my
-              curiosities. Not a fan of negative attitudes. And of course, there
-              is always a better way to do anything.
-            </p>
-            <p>
-              While I keep busy learning best practices, I am taking interviews
-              in search of a great team & projects that interest me.
-            </p>
-
-            <hr />
-
-            <h4>TOP EXPERTISE</h4>
-
-            <p>
-              Fullstack developer with primary focus on React + Django:
-              <a target="_blank" href="FullStackResume.pdf">Download Resume</a>
-            </p>
-
-            <div id="skills">
-              <ul>
-                <li>Python</li>
-                <li>JS/ES6</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>SQL</li>
-              </ul>
-
-              <ul>
-                <li>React/Redux</li>
-                <li>React Native</li>
-                <li>Material UI</li>
-                <li>Tailwind CSS</li>
-                <li>Bootstrap</li>
-              </ul>
-
-              <ul>
-                <li>Django</li>
-                <li>Express</li>
-                <li>Node.js</li>
-                <li>MongoDB</li>
-                <li>Postgres</li>
-              </ul>
+    <main>
+        <section class="section-about">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Front End Focused
+                    <br>With Full Stack Experience
+                </h2>
             </div>
-          </div>
 
-          <div class="social_links">
-            <img id="social_img" src="images/portrait.jpg" />
-            <h3>Find me on GitHub, LinkedIn & Twitter</h3>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <h3 class="heading-tertiary u-margin-bottom-small">Motivated To Produce Results</h3>
+                    <p class="paragraph">
+                        As a tenacious self-taught programmer, I use continuous iteration to produce results quickly and continuously improve products.
+                    </p>
+                    <h3 class="heading-tertiary u-margin-bottom-small">An Agile Collaborator</h3>
+                    <p class="paragraph">
+                        I am contributing to open source projects, worked on engineering teams, and always stay attuned to the newest frameworks.
+                    </p>
 
-            <div class="icons">
-              <a target="_blank" href="https://github.com/mazen-elba">
-                <i class="fab fa-github fa-2x"></i></a
-              >
-              <br />
-              <a target="_blank" href="https://www.linkedin.com/in/mazen-elba/"
-                ><i class="fab fa-linkedin fa-2x"></i></a
-              >
-              <br />
-              <a target="_blank" href="https://twitter.com/mazen_elba/"
-                ><i class="fab fa-twitter fa-2x"></i></a
-              >
+                </div>
+                <div class="col-1-of-2">
+                    <div class="composition">
+                        <img src="images/javascript.png" alt="JS" class="composition__photo composition__photo--p1">
+                        <img src="images/nodejs.png" alt="Node" class="composition__photo composition__photo--p3">
+                        <img src="images/react.png" alt="React" class="composition__photo composition__photo--p2">
+                    </div>
+                </div>
+                
             </div>
-          </div>
+        </section>
+
+        <section class="section-features">
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-webpage"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Front End</h3>
+                        <p class="feature-box__text">
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3 | SASS</li>
+                                <li>JavaScript</li>
+                                <li>React | Redux</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-share"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Server</h3>
+                        <p class="feature-box__text">
+                            <ul>
+                                <li>NodeJS</li>
+                                <li>Express</li>
+                                <li>Django</li>
+                                <li>Python</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-server2"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Database</h3>
+                        <p class="feature-box__text">
+                            <ul>
+                                <li>PostgreSQL</li>
+                                <li>mySQL</li>
+                                <li>MongoDB</li>
+                                <li>Firebase</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-cloud"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Deployment</h3>
+                        <p class="feature-box__text">
+                            <ul>
+                                <li>Jenkins</li>
+                                <li>Heroku</li>
+                                <li>Docker</li>
+                                <li>Git</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="section-tours" id="projects">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Project Portfolio
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front card__side--front-1">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>
+                            <img src="images/gear.png" class="card__svg-icon floating" alt="">
+                            <h4 class="card__heading">
+                                <span class="card__heading-span--1">
+                                    COVID-19 Tracker
+                                </span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>React | Redux</li>
+                                    <li>NodeJS</li>
+                                    <li>Heroku</li>
+                                    <li>Firebase</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-1">
+
+                            <div class="card__cta">
+
+                                <div class="card__box">
+                                    <div class="card__description">
+                                        <p>
+                                            A live tracker with global mapping of cases by country
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="https://covid-19-tracker-9f3e3.firebaseapp.com/" class="btn btn--white btn--github">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front card__side--front-2">
+                            <div class="card__picture card__picture--6">
+                                &nbsp;
+                            </div>
+                            <img src="images/netflix.jpg" class="card__svg-icon card__svg-icon-6 floating" alt="">
+                            <div class="card__heading">
+                                <span class="card__heading-span--6">
+                                    Video Streaming
+                                </span>
+                            </div>
+                            <div class="card__details">
+                                <ul>
+                                    <li>React | Redux</li>
+                                    <li>CSS</li>
+                                    <li>Express | NodeJS</li>
+                                    <li>REST API</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-6">
+                            <div class="card__cta">
+                                <div class="card__box">
+                                    <div class="card__description">
+                                        <p>
+                                            A Netflix-inspired streaming service offering TV shows, movies and documentaries
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="https://netflix-clone-8b75b.firebaseapp.com/" class="btn btn--white btn--github">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front card__side--front-3">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+                            <img src="images/spotify-clone.jpeg" class="card__svg-icon card__svg-icon-3 floating" alt="">
+                            <div class="card__heading">
+                                <span class="card__heading-span--3">
+                                    Music Streaming
+                                </span>
+                            </div>
+                            <div class="card__details">
+                                <ul>
+                                    <li>React | Redux</li>
+                                    <li>Firebase</li>
+                                    <li>Express | NodeJS</li>
+                                    <li>PostgreSQL</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-3">
+                            <div class="card__cta">
+                                <div class="card__box">
+                                    <div class="card__description">
+                                        <p>
+                                            Spotify-inspired digital music service streaming songs from around the world
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="#popup-3" class="btn btn--white btn--github">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--second row-->
+                <div class="row">
+                    <div class="col-1-of-3 single-col">
+                        <div class="card">
+                            <div class="card__side card__side--front card__side--front-4">
+                                <div class="card__picture card__picture--4">
+                                    &nbsp;
+                                </div>
+                                <img src="images/facebook-messenger.jpg" class="card__svg-icon card__svg-icon-4 floating" alt="">
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span--4">
+                                        Instant Messaging
+                                    </span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>React</li>
+                                        <li>CSS | SASS</li>
+                                        <li>Express | NodeJS</li>
+                                        <li>mySQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-4">
+                                <div class="card__cta">
+                                    <div class="card__box">
+                                        <div class="card__description">
+                                            <p>
+                                                Facebook Messenger-inspired instant messaging app for sharing data and group chats
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="https://facebook-messenger-clone-7688d.firebaseapp.com/" class="btn btn--white btn--github">Demo</a>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front card__side--front-2">
+                                <div class="card__picture card__picture--2">
+                                    &nbsp;
+                                </div>
+                                <img src="images/amazon-clone.jpeg" class="card__svg-icon card__svg-icon-2 floating" alt="">
+                                <div class="card__heading">
+                                    <span class="card__heading-span--2">
+                                        E-Commerce
+                                    </span>
+                                </div>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>React | Redux</li>
+                                        <li>MaterialUI</li>
+                                        <li>Express | NodeJS</li>
+                                        <li>PostgreSQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-2">
+                                <div class="card__cta">
+                                    <div class="card__box">
+                                        <div class="card__description">
+                                            <p>
+                                                Amazon-inspired online retailer and cloud services provider
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="https://clone-db13c.firebaseapp.com/" class="btn btn--white btn--github">Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-3 single-col">
+                        <div class="card">
+                            <div class="card__side card__side--front card__side--front-5">
+                                <div class="card__picture card__picture--5">
+                                    &nbsp;
+                                </div>
+                                <img src="images/money.gif" class="card__svg-icon card__svg-icon-5 floating" alt="">
+                                <h5 class="card__heading">
+                                    <span class="card__heading-span--5">
+                                        Stock Trader
+                                    </span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Django</li>
+                                        <li>CSS</li>
+                                        <li>Python</li>
+                                        <li>Jinja</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-5">
+                                <div class="card__cta">
+                                    <div class="card__box">
+                                        <div class="card__description">
+                                            <p>
+                                                Stock data pulled in real time from Yahoo Finance API
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="https://github.com/mazen-elba" class="btn btn--white btn--github">source code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo-box">
+            <a href="#top">
+                <img src="images/logo-white.png" alt="Logo" class="footer__logo smooth-goto">
+            </a>
         </div>
-      </div>
-    </section>
-
-    <!-- BLOG/PROJECTS -->
-    <section class="s1">
-      <div class="main-container">
-        <h3 style="text-align: center;">Some of my past projects</h3>
-        <div class="post-wrapper">
-
-          <div>
-            <div class="post">
-              <img class="thumbnail" src="images/covid-19.jpeg" />
-              <div class="post-preview">
-                <h6 class="post-title">COVID-19 Tracker</h6>
-                <p class="post-intro">
-                  A powerful and live COVID-19 tracker, with a global map to highlight current cases, deaths and recoveries by country.
-                </p>
-                <a target="_blank" href="https://covid-19-tracker-9f3e3.firebaseapp.com/">Learn More</a>
-              </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="https://github.com/mazen-elba" class="footer__link">GitHub</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="https://www.linkedin.com/in/mazen-elba" class="footer__link">LinkedIn</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="images/FullStackResume.pdf" class="footer__link">Resume</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          
-          <div>
-            <div class="post">
-              <img class="thumbnail" src="images/netflix.jpg" />
-              <div class="post-preview">
-                <h6 class="post-title">Netflix Clone</h6>
-                <p class="post-intro">
-                  A replication of the famous streaming service that offers a
-                  wide variety of TV shows, movies, anime and documentaries.
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Site by
+                    <a href=# class="footer__link"> Mazen Abdelbasir </a>
                 </p>
-                <a target="_blank" href="https://netflix-clone-8b75b.firebaseapp.com/" src=>Learn More</a>
-              </div>
             </div>
-          </div>
-          
-          <div>
-            <div class="post">
-              <img class="thumbnail" src="images/facebook-messenger.jpg" />
-              <div class="post-preview">
-                <h6 class="post-title">Facebook Messenger Clone</h6>
-                <p class="post-intro">
-                  An imitation of Facebook's instant messaging app, used for
-                  sharing photos, videos, audio recordings and for group chats.
-                </p>
-                <a target="_blank" href="https://facebook-messenger-clone-7688d.firebaseapp.com/">Learn More</a>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div class="post">
-              <img class="thumbnail" src="images/amazon-clone.jpeg" />
-              <div class="post-preview">
-                <h6 class="post-title">Amazon Clone</h6>
-                <p class="post-intro">
-                  A replicated version of the world's largest online retailer and a prominent cloud services provider. 
-                </p>
-                <a target="_blank" href="https://clone-db13c.firebaseapp.com/">Learn More</a>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div class="post">
-              <img class="thumbnail" src="images/spotify-clone.jpeg" />
-              <div class="post-preview">
-                <h6 class="post-title">Spotify Clone</h6>
-                <p class="post-intro">
-                  A replica of the famous digital music service that gives access to millions of songs from around the world.
-                </p>
-                <a target="_blank" href="post.html">Learn More</a>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div class="post">
-              <img class="thumbnail" src="images/background2.jpg" />
-              <div class="post-preview">
-                <h6 class="post-title">STEAM (working project)</h6>
-                <p class="post-intro">
-                  A historical guide into Africa's modern world contributions in
-                  Science, Technology, Engineering, Art, and Mathematics.
-                </p>
-                <a target="_blank" href="https://mazen-elba.github.io/STEAM"
-                  >Learn More</a
-                >
-              </div>
-            </div>
-          </div>
+            
         </div>
-      </div>
-    </section>
+    </footer>
 
-    <!-- CONTACT FORM -->
-    <section class="s2">
-      <div class="main-container">
-        <a href=""></a>
-        <h3 style="text-align: center;">Get In Touch</h3>
-        <form
-          id="contact-form"
-          method="post"
-          action="MAILTO:mazen.elba@gmail.com"
-          enctype="text/plain"
-        >
-          <a name="contact"></a>
-
-          <label
-            ><i class="fa fa-user fa-0.2x" aria-hidden="true"></i> Name</label
-          >
-          <input
-            class="input-field"
-            type="text"
-            name="name"
-            placeholder="Full Name"
-            required
-          />
-
-          <label>Subject</label>
-          <input
-            class="input-field"
-            type="text"
-            name="subject"
-            placeholder="Context of Message"
-            required
-          />
-
-          <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
-          <input
-            class="input-field"
-            type="text"
-            name="email"
-            placeholder="Your E-mail"
-            required
-          />
-
-          <label
-            ><i class="fa fa-comment" aria-hidden="true"></i> Message</label
-          >
-          <textarea
-            class="input-field"
-            type="text"
-            name="message"
-            maxlength="6000"
-            required
-          ></textarea>
-
-          <button target="_blank" id="submit-btn" type="submit" name="submit">
-            Submit
-          </button>
-        </form>
-
-        <div
-          id="error_message"
-          style="width: 100%; height: 100%; display: none;"
-        >
-          <h4>Error</h4>
-          Sorry there was an error sending your form.
+    <div class="popup" id="popup-2">
+        <div class="popup__content">
+            <div class="popup__left">
+                <a href="#projects"><img src="images/il_demo.gif" alt="Instalava Demo" class="popup__img"></a>
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h3 class="heading-secondary-sm popup__header-2">Instalava</h3>
+                <h3 class="heading-tertiary u-margin-bottom-small">React, Express, PostgreSQL</h3>
+                <div class="popup__text u-margin-bottom-medium">
+                    <p>
+                        Live feed, profile pages, followers.
+                    </p>
+                </div>
+                <a href="https://github.com/mazen-elba" class="btn popup__btn-2">Source Code</a>
+            </div>
         </div>
-        <div
-          id="success_message"
-          style="width: 100%; height: 100%; display: none;"
-        >
-          <h2>Success! Your Message was Sent Successfully.</h2>
-        </div>
-      </div>
-    </section>
+    </div>
 
-    <script src="js/script.js"></script>
-  </body>
+    <div class="popup" id="popup-3">
+        <div class="popup__content">
+            <div class="popup__left">
+                <a href="#projects"><img src="images/pw_demo.gif" alt="Paywaal Demo" class="popup__img"></a>
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h3 class="heading-secondary-sm popup__header-3">Paywaal</h3>
+                <h3 class="heading-tertiary u-margin-bottom-small">React, Redux, Socket.io</h3>
+                <div class="popup__text u-margin-bottom-medium">
+                    <p>
+                        Chat, notifications, add friends. Live.
+                    </p>
+                </div>
+                <a href="https://github.com/aj-4/hrpaymo" class="btn popup__btn-3">Source Code</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-4">
+        <div class="popup__content">
+            <div class="popup__left">
+                <a href="#projects"><img src="images/pp_demo.gif" alt="Perfect Plate Demo" class="popup__img"></a>
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h3 class="heading-secondary-sm popup__header-4">Perfect Plate</h3>
+                <h3 class="heading-tertiary u-margin-bottom-small">React, CSS, Express</h3>
+                <div class="popup__text u-margin-bottom-medium">
+                    <p>
+                        Instant nutrition info for any food. Create plates.
+                    </p>
+                </div>
+                <a href="https://github.com/mazen-elba" class="btn popup__btn-4">Source Code</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-5">
+        <div class="popup__content">
+            <div class="popup__left">
+                <a href="#projects">
+<img src="https://media.giphy.com/media/EBnTOYz5LFZesguqtI/giphy.gif" alt="Elevator Demo" class="popup__img">
+                </a>
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h3 class="heading-secondary-sm popup__header-5">Elevator</h3>
+                <h3 class="heading-tertiary u-margin-bottom-small">React, Redux, Tokbox API</h3>
+                <div class="popup__text u-margin-bottom-medium">
+                    <p>
+                        Practice your pitch for your company or yourself. Live stream. Get immediate feedback. Watch yourself improve.
+                    </p>
+                </div>
+                <a href="https://github.com/mazen-elba" class="btn popup__btn-5">Source Code</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    $('.smooth-goto').on('click', function () {
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top + 50
+            }, 1000);
+        });
+
+    $(document).ready(function(){
+        $('.popup__img').css('visibility', 'visible');        
+    })
+</script>
+
 </html>
