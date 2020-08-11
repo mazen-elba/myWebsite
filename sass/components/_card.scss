@@ -29,43 +29,43 @@
       &-1 {
         background-image: linear-gradient(
           to right bottom,
-          $color-card-1-primary,
-          $color-card-1-secondary
+          $color-gradient-primary,
+          $color-gradient-secondary
         );
       }
       &-2 {
         background-image: linear-gradient(
           to right bottom,
-          $color-card-2-primary,
-          $color-card-2-secondary
+          $color-gradient-primary,
+          $color-gradient-secondary
         );
       }
       &-3 {
         background-image: linear-gradient(
           to right bottom,
-          $color-card-3-primary,
-          $color-card-3-secondary
+          $color-gradient-primary,
+          $color-gradient-secondary
         );
       }
       &-4 {
         background-image: linear-gradient(
           to right bottom,
-          $color-card-4-primary,
-          $color-card-4-secondary
+          $color-gradient-primary,
+          $color-gradient-secondary
         );
       }
       &-5 {
         background-image: linear-gradient(
           to right bottom,
-          $color-card-5-primary,
-          $color-card-5-secondary
+          $color-gradient-primary,
+          $color-gradient-secondary
         );
       }
       &-6 {
         background-image: linear-gradient(
           to right bottom,
-          $color-card-6-primary,
-          $color-card-6-secondary
+          $color-gradient-primary,
+          $color-gradient-secondary
         );
       }
     }
@@ -91,50 +91,50 @@
     &--1 {
       background-image: linear-gradient(
           to right bottom,
-          $color-card-1-primary,
-          $color-card-1-secondary
+          $color-gradient-primary,
+          $color-gradient-secondary
         ),
-        url(../img/gears.png);
+        url(../images/under-construction.jpeg);
     }
     &--2 {
       background-image: linear-gradient(
           to right bottom,
-          $color-card-2-primary,
-          $color-card-2-secondary
+          $color-gradient-primary,
+          $color-gradient-secondary
         ),
-        url(../img/flames.png);
+        url(../images/covid-19.jpeg);
     }
     &--3 {
       background-image: linear-gradient(
           to right bottom,
-          $color-card-3-primary,
-          $color-card-3-secondary
+          $color-gradient-primary,
+          $color-gradient-secondary
         ),
-        url(../img/chatbg.png);
+        url(../images/netflix.jpeg);
     }
     &--4 {
       background-image: linear-gradient(
           to right bottom,
-          $color-card-4-primary,
-          $color-card-4-secondary
+          $color-gradient-primary,
+          $color-gradient-secondary
         ),
-        url(../img/food.png);
+        url(../images/spotify-clone.jpeg);
     }
     &--5 {
       background-image: linear-gradient(
           to right bottom,
-          $color-card-5-primary,
-          $color-card-5-secondary
+          $color-gradient-primary,
+          $color-gradient-secondary
         ),
-        url(../img/dollar.jpg);
+        url(../images/facebook-messenger.jpg);
     }
     &--6 {
       background-image: linear-gradient(
           to right bottom,
-          $color-card-6-primary,
-          $color-card-6-secondary
+          $color-gradient-primary,
+          $color-gradient-secondary
         ),
-        url(../img/office-hall.jpg);
+        url(../images/amazon-clone.jpeg);
     }
   }
 
@@ -144,7 +144,7 @@
     text-transform: uppercase;
     text-align: right;
     color: $color-white;
-    position: absolute;
+    position: fixed;
     top: 2rem;
     right: 2rem;
     width: 70%;
@@ -159,43 +159,43 @@
     &--1 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-card-1-primary, 0.9),
-        rgba($color-card-1-secondary, 0.9)
+        rgba($color-gradient-primary, 0.9),
+        rgba($color-gradient-secondary, 0.9)
       );
     }
     &--2 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-card-2-primary, 0.9),
-        rgba($color-card-2-secondary, 0.9)
+        rgba($color-gradient-primary, 0.9),
+        rgba($color-gradient-secondary, 0.9)
       );
     }
     &--3 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-card-3-primary, 0.9),
-        rgba($color-card-3-secondary, 0.9)
+        rgba($color-gradient-primary, 0.9),
+        rgba($color-gradient-secondary, 0.9)
       );
     }
     &--4 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-card-4-primary, 0.9),
-        rgba($color-card-4-secondary, 0.9)
+        rgba($color-gradient-primary, 0.9),
+        rgba($color-gradient-secondary, 0.9)
       );
     }
     &--5 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-card-5-primary, 0.9),
-        rgba($color-card-5-secondary, 0.9)
+        rgba($color-gradient-primary, 0.9),
+        rgba($color-gradient-secondary, 0.9)
       );
     }
     &--6 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-card-6-primary, 0.9),
-        rgba($color-card-6-secondary, 0.9)
+        rgba($color-gradient-primary, 0.9),
+        rgba($color-gradient-secondary, 0.9)
       );
     }
   }
