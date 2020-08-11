@@ -235,7 +235,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <a href="#popup-3" class="btn btn--white btn--github">Demo</a>
+                                <a href="#" class="btn btn--white btn--github">Demo</a>
                             </div>
                         </div>
                     </div>
@@ -369,104 +369,28 @@
                 <div class="footer__navigation">
                     <ul class="footer__list">
                         <li class="footer__item">
-                            <a href="https://github.com/mazen-elba" class="footer__link">GitHub</a>
+                            <a target="_blank" href="https://github.com/mazen-elba" class="footer__link">GitHub</a>
                         </li>
                         <li class="footer__item">
-                            <a href="https://www.linkedin.com/in/mazen-elba" class="footer__link">LinkedIn</a>
+                            <a target="_blank" href="https://www.linkedin.com/in/mazen-elba" class="footer__link">LinkedIn</a>
                         </li>
                         <li class="footer__item">
-                            <a href="images/FullStackResume.pdf" class="footer__link">Resume</a>
+                            <a target="_blank" href="images/FullStackResume.pdf" class="footer__link">Resume</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="col-1-of-2">
-                <p class="footer__copyright">
+                <p class="footer__copyright" style="text-align: center;">
                     Site by
                     <a href=# class="footer__link"> Mazen Abdelbasir </a>
+                    <br/>
+                    Copyright &copy; <script>document.write(new Date().getFullYear())</script>
                 </p>
             </div>
             
         </div>
     </footer>
-
-    <div class="popup" id="popup-2">
-        <div class="popup__content">
-            <div class="popup__left">
-                <a href="#projects"><img src="images/il_demo.gif" alt="Instalava Demo" class="popup__img"></a>
-            </div>
-            <div class="popup__right">
-                <a href="#section-tours" class="popup__close">&times;</a>
-                <h3 class="heading-secondary-sm popup__header-2">Instalava</h3>
-                <h3 class="heading-tertiary u-margin-bottom-small">React, Express, PostgreSQL</h3>
-                <div class="popup__text u-margin-bottom-medium">
-                    <p>
-                        Live feed, profile pages, followers.
-                    </p>
-                </div>
-                <a href="https://github.com/mazen-elba" class="btn popup__btn-2">Source Code</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="popup" id="popup-3">
-        <div class="popup__content">
-            <div class="popup__left">
-                <a href="#projects"><img src="images/pw_demo.gif" alt="Paywaal Demo" class="popup__img"></a>
-            </div>
-            <div class="popup__right">
-                <a href="#section-tours" class="popup__close">&times;</a>
-                <h3 class="heading-secondary-sm popup__header-3">Paywaal</h3>
-                <h3 class="heading-tertiary u-margin-bottom-small">React, Redux, Socket.io</h3>
-                <div class="popup__text u-margin-bottom-medium">
-                    <p>
-                        Chat, notifications, add friends. Live.
-                    </p>
-                </div>
-                <a href="https://github.com/aj-4/hrpaymo" class="btn popup__btn-3">Source Code</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="popup" id="popup-4">
-        <div class="popup__content">
-            <div class="popup__left">
-                <a href="#projects"><img src="images/pp_demo.gif" alt="Perfect Plate Demo" class="popup__img"></a>
-            </div>
-            <div class="popup__right">
-                <a href="#section-tours" class="popup__close">&times;</a>
-                <h3 class="heading-secondary-sm popup__header-4">Perfect Plate</h3>
-                <h3 class="heading-tertiary u-margin-bottom-small">React, CSS, Express</h3>
-                <div class="popup__text u-margin-bottom-medium">
-                    <p>
-                        Instant nutrition info for any food. Create plates.
-                    </p>
-                </div>
-                <a href="https://github.com/mazen-elba" class="btn popup__btn-4">Source Code</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="popup" id="popup-5">
-        <div class="popup__content">
-            <div class="popup__left">
-                <a href="#projects">
-<img src="https://media.giphy.com/media/EBnTOYz5LFZesguqtI/giphy.gif" alt="Elevator Demo" class="popup__img">
-                </a>
-            </div>
-            <div class="popup__right">
-                <a href="#section-tours" class="popup__close">&times;</a>
-                <h3 class="heading-secondary-sm popup__header-5">Elevator</h3>
-                <h3 class="heading-tertiary u-margin-bottom-small">React, Redux, Tokbox API</h3>
-                <div class="popup__text u-margin-bottom-medium">
-                    <p>
-                        Practice your pitch for your company or yourself. Live stream. Get immediate feedback. Watch yourself improve.
-                    </p>
-                </div>
-                <a href="https://github.com/mazen-elba" class="btn popup__btn-5">Source Code</a>
-            </div>
-        </div>
-    </div>
 
 </body>
 
@@ -478,10 +402,6 @@
                 scrollTop: $(this.hash).offset().top + 50
             }, 1000);
         });
-
-    $(document).ready(function(){
-        $('.popup__img').css('visibility', 'visible');        
-    })
 </script>
 
 </html>
