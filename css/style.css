@@ -196,6 +196,7 @@ body {
   text-align: center; }
 
 .u-margin-bottom-big {
+  top: 20px;
   margin-bottom: 8rem; }
 
 .u-margin-bottom-medium {
@@ -400,13 +401,13 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/travel-diary.jpeg); }
+      background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/blog.jpeg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/covid-19.jpeg); }
+      background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/travel-diary.jpeg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/netflix.jpeg); }
+      background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/covid-19.jpeg); }
     .card__picture--4 {
-      background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/spotify-clone.jpeg); }
+      background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/netflix.jpeg); }
     .card__picture--5 {
       background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/real-estate.jpeg); }
     .card__picture--6 {
