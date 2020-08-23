@@ -545,6 +545,12 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%); }
+  .header .blog-container {
+    display: flex;
+    flex: 20%;
+    flex-direction: column;
+    gap: 10px;
+    position: center; }
 
 .row {
   max-width: 95rem;
