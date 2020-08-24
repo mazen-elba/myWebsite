@@ -403,7 +403,7 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/blog.jpeg); }
+      background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/under-construction.jpeg); }
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/travel-diary.jpeg); }
     .card__picture--3 {
