@@ -403,7 +403,7 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/blog.jpeg); }
+      background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/under-construction.jpeg); }
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, #1e73ac, #8e3999), url(../images/travel-diary.jpeg); }
     .card__picture--3 {
@@ -545,6 +545,12 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%); }
+  .header .blog-container {
+    display: flex;
+    flex: 20%;
+    flex-direction: column;
+    gap: 10px;
+    position: center; }
 
 .row {
   max-width: 95rem;
